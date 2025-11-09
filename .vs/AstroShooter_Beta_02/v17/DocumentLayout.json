@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Games\\unitygames\\AstroShooter_Beta_02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{455DACC1-8AFD-2162-9B7B-95AAB724BF0F}|Assembly-CSharp.csproj|d:\\games\\unitygames\\astroshooter_beta_02\\assets\\scripts\\globalset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{455DACC1-8AFD-2162-9B7B-95AAB724BF0F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\globalset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{455DACC1-8AFD-2162-9B7B-95AAB724BF0F}|Assembly-CSharp.csproj|d:\\games\\unitygames\\astroshooter_beta_02\\assets\\scripts\\closecanvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{455DACC1-8AFD-2162-9B7B-95AAB724BF0F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\closecanvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{455DACC1-8AFD-2162-9B7B-95AAB724BF0F}|Assembly-CSharp.csproj|D:\\Games\\unitygames\\AstroShooter_Beta_02\\assets\\scripts\\supernovalock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{455DACC1-8AFD-2162-9B7B-95AAB724BF0F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\supernovalock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{455DACC1-8AFD-2162-9B7B-95AAB724BF0F}|Assembly-CSharp.csproj|D:\\Games\\unitygames\\AstroShooter_Beta_02\\assets\\scripts\\loadroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{455DACC1-8AFD-2162-9B7B-95AAB724BF0F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loadroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{455DACC1-8AFD-2162-9B7B-95AAB724BF0F}|Assembly-CSharp.csproj|D:\\Games\\unitygames\\AstroShooter_Beta_02\\assets\\scripts\\singlelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{455DACC1-8AFD-2162-9B7B-95AAB724BF0F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\singlelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{455DACC1-8AFD-2162-9B7B-95AAB724BF0F}|Assembly-CSharp.csproj|D:\\Games\\unitygames\\AstroShooter_Beta_02\\assets\\scripts\\levelcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{455DACC1-8AFD-2162-9B7B-95AAB724BF0F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GlobalSet.cs",
+              "DocumentMoniker": "D:\\Games\\unitygames\\AstroShooter_Beta_02\\Assets\\scripts\\GlobalSet.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\GlobalSet.cs",
+              "ToolTip": "D:\\Games\\unitygames\\AstroShooter_Beta_02\\Assets\\scripts\\GlobalSet.cs",
+              "RelativeToolTip": "Assets\\scripts\\GlobalSet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T20:19:22.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CloseCanvas.cs",
+              "DocumentMoniker": "D:\\Games\\unitygames\\AstroShooter_Beta_02\\Assets\\scripts\\CloseCanvas.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\CloseCanvas.cs",
+              "ToolTip": "D:\\Games\\unitygames\\AstroShooter_Beta_02\\Assets\\scripts\\CloseCanvas.cs",
+              "RelativeToolTip": "Assets\\scripts\\CloseCanvas.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T20:14:28.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SupernovaLock.cs",
+              "DocumentMoniker": "D:\\Games\\unitygames\\AstroShooter_Beta_02\\Assets\\scripts\\SupernovaLock.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\SupernovaLock.cs",
+              "ToolTip": "D:\\Games\\unitygames\\AstroShooter_Beta_02\\Assets\\scripts\\SupernovaLock.cs",
+              "RelativeToolTip": "Assets\\scripts\\SupernovaLock.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T19:52:26.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SingleLock.cs",
+              "DocumentMoniker": "D:\\Games\\unitygames\\AstroShooter_Beta_02\\Assets\\scripts\\SingleLock.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\SingleLock.cs",
+              "ToolTip": "D:\\Games\\unitygames\\AstroShooter_Beta_02\\Assets\\scripts\\SingleLock.cs",
+              "RelativeToolTip": "Assets\\scripts\\SingleLock.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T19:41:47.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LevelControl.cs",
+              "DocumentMoniker": "D:\\Games\\unitygames\\AstroShooter_Beta_02\\Assets\\scripts\\LevelControl.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\LevelControl.cs",
+              "ToolTip": "D:\\Games\\unitygames\\AstroShooter_Beta_02\\Assets\\scripts\\LevelControl.cs",
+              "RelativeToolTip": "Assets\\scripts\\LevelControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T19:19:28.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoadRoom.cs",
+              "DocumentMoniker": "D:\\Games\\unitygames\\AstroShooter_Beta_02\\Assets\\scripts\\LoadRoom.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\LoadRoom.cs",
+              "ToolTip": "D:\\Games\\unitygames\\AstroShooter_Beta_02\\Assets\\scripts\\LoadRoom.cs",
+              "RelativeToolTip": "Assets\\scripts\\LoadRoom.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T14:27:29.265Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
