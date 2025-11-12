@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,6 +23,11 @@ public class PlayerControl : Singleton<PlayerControl>
     [Header("死亡消息")]
     [SerializeField] private GameObject deathMessage;
 
+    // 受伤事件 (damage, newHP, maxHP, willDie)
+    public static event Action<int, int, int, bool> OnPlayerHurt;
+    // 回血事件 (healamt, newHP, maxHP, wasFullHealth)
+    public static event Action<int, int, int, bool> OnPlayerHeal;
+
     // 指向主角物体（运行时实例）
     public static GameObject Player;
     // 最大血量
@@ -32,12 +38,29 @@ public class PlayerControl : Singleton<PlayerControl>
     public static int HP => HealthPoint;
     public static void GetHurt(int damage)
     {
+        int oldHP = HealthPoint;
         HealthPoint -= damage;
-        Debug.Log($"{LogTag} GetHurt damage={damage}, HP={HealthPoint}");
-        if(HealthPoint <= 0)
+        bool willDie = HealthPoint * oldHP <= 0;
+        HealthPoint = Mathf.Max(HealthPoint, 0);
+
+        // 广播受伤事件
+        try
         {
-            Player.SetActive(false);
-            if(Instance.deathMessage != null)
+            OnPlayerHurt?.Invoke(damage, HealthPoint, maxHealthPoint, willDie); 
+        }
+        catch (Exception e)
+        {
+            Debug.LogWarning($"{LogTag} OnPlayerHurt invocation exception: {e.Message}");
+        }
+
+        Debug.Log($"{LogTag} GetHurt damage={damage}, HP(old->{oldHP}->{HealthPoint}), willDie={willDie}");
+
+        if (willDie)
+        {
+            if (Player != null)
+                Player.SetActive(false);
+
+            if (Instance.deathMessage != null)
             {
                 Instantiate(Instance.deathMessage);
                 Debug.Log($"{LogTag} Player died.");
@@ -50,9 +73,21 @@ public class PlayerControl : Singleton<PlayerControl>
     }
     public static void Heal(int amount)
     {
+        bool wasFullHealth = HealthPoint >= maxHealthPoint;
         HealthPoint += amount;
         if (HealthPoint > maxHealthPoint)
             HealthPoint = maxHealthPoint;
+
+        // 广播回血事件
+        try
+        {
+            OnPlayerHeal?.Invoke(amount, HealthPoint, maxHealthPoint, wasFullHealth);
+        }
+        catch (Exception e)
+        {
+            Debug.LogWarning($"{LogTag} OnPlayerHeal invocation exception: {e.Message}");
+        }
+
         Debug.Log($"{LogTag} Heal amount={amount}, HP={HealthPoint}");
     }
 

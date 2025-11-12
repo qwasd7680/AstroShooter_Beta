@@ -27,7 +27,7 @@ MonoBehaviour:
     cachedGuid: 2bbf1ff7b6bcf9c43aae1943eb14fabf
   - sceneAsset: {fileID: 102900000, guid: 8c9cfa26abfee488c85f1582747f6a02, type: 3}
     category: 1
-    levelIndex: 0
+    levelIndex: -1
     includedInFlow: 1
     cachedPath: Assets/Scenes/SampleScene.unity
     cachedGuid: 8c9cfa26abfee488c85f1582747f6a02
